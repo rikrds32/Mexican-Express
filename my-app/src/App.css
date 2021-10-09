@@ -2,11 +2,13 @@
 
 :root{
   --primary-white: #fff;
+  --primary-orange: #f93200;
 }
 
 
 body{
   font-family: "Roboto Condensed" sans-serif;
+  background: url(mxexBackground.jpg);
 }
 
 
@@ -21,8 +23,31 @@ nav a.nav-link{
 
 nav ul li{
   text-transform: uppercase;
+  font-size: 1.3rem !important;
+  
 }
 
 .navbar-nav > li > a {
+  margin: left;
   color: var(--primary-white) !important;
+  
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+
+.container{
+  background-color: #ff9933 !important;
+  
+}
+
+.h1-brand{
+  text-align: center;
+  font-size: 180px;
+}
+.p-brand{
+
+  font-size: 80px;
+  text-align: center;
 }
